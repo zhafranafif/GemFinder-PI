@@ -84,14 +84,17 @@ const createAboutUsTemplate = () => `
         dari masyarakat serta destinasi yang mendapatkan dampak sangat kuat dari pandemi COVID-19 dapat tumbuh kembali. Destinasi-destinasi ini didapatkan dari dari survey google form yang diberikan kepada public.
         </p>
       </div>
-          <div class="row-profile">
-            <div class="col-4">
-              <div class="profile-content">
-                <img src="${CONFIG.BASE_IMAGE_URL}zhafran.jpg" alt="Zhafran Afif">
-                <h3>Zhafran Afif</h3>
-              </div>
-            </div>
-          </div>
+          <div class="wrapper">
+     <div class="img-area">
+       <div class="inner-area">
+         <img src="${CONFIG.BASE_IMAGE_URL}zhafran.jpg" alt="Zhafran Afif">
+       </div>
+     </div>
+      <div class="name">Zhafran Afif</div>
+     <div class="major">
+       Information System at Gunadarma University
+  </div>
+  </div>
           <div class="credits">
               <h2>Credits</h2>
               <p>Sumber gambar yang digunakan untuk API hidden gem: Google Maps</p>
