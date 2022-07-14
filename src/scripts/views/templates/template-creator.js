@@ -80,39 +80,15 @@ const createAboutUsTemplate = () => `
       <div class="break-line"></div>
       <div class="gem-desc">
         <h3>GemFinder</h3>
-        <p>Salah satu sektor yang terkena dampak dari pandemi Covid-19 adalah sektor pariwisata, terutama lokasi-lokasi yang termasuk hidden gem.
-        Akibat dampak tersebut, beberapa lokasi wisata atau destinasi memiliki resiko untuk tutup dan tidak terawat karena kurangnya pendapatan
-        akibat dari sedikitnya pengunjung, dan hal ini bisa menyebabkan berkurangnya lokasi pariwisata di Indonesia. Tetapi seiring berjalannya waktu
-        dan kasus Covid-19 di Indonesia mulai mereda banyak orang mulai beraktivitas kembali sehingga sektor pariwisata dapat berjalan kembali. Maka dari itu
-        kami membuat website dimana anda bisa mencari lokasi hidden gem tersebut yang kami dapatkan melalui survey.
+        <p>GemFinder merupakan website yang dibuat untuk memberikan informasi-informasi destinasi wisata hidden gem yang ada di Indonesia. GemFinder dibuat agar destinasi-destinasi wisata yang kurang mendapatkan visibilitas
+        dari masyarakat serta destinasi yang mendapatkan dampak sangat kuat dari pandemi COVID-19 dapat tumbuh kembali. Destinasi-destinasi ini didapatkan dari dari survey google form yang diberikan kepada public.
         </p>
-        <div class="kelompok">
-          <h3>Kelompok CPSG-76</h3>
-        </div>
       </div>
           <div class="row-profile">
             <div class="col-4">
               <div class="profile-content">
-                <img src="${CONFIG.BASE_IMAGE_URL}fawwaz.jpg" alt="Fawwaz Kautsar">
-                <h3>Fawwaz Kautsar</h3>
-              </div>
-            </div>
-            <div class="col-4">
-              <div class="profile-content">
-                <img src="${CONFIG.BASE_IMAGE_URL}indra.jpg" alt="Indra Setiawan">
-                <h3>Indra Setiawan</h3>
-              </div>
-            </div>
-            <div class="col-4">
-              <div class="profile-content">
                 <img src="${CONFIG.BASE_IMAGE_URL}zhafran.jpg" alt="Zhafran Afif">
                 <h3>Zhafran Afif</h3>
-              </div>
-            </div>
-            <div class="col-4">
-              <div class="profile-content">
-                <img src="${CONFIG.BASE_IMAGE_URL}erick.jpg" alt="Tederick Budiono">
-                <h3>Tederick Budiono</h3>
               </div>
             </div>
           </div>
